@@ -1,0 +1,31 @@
+body{
+  padding: 2vw;
+}
+.rows-contaier{
+  display: flex;
+}
+.images-row{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  overflow: scroll;
+  justify-content: space-between;
+}
+.image-thumbnail{
+  display: flex;
+  height: 100px;
+  margin: 5px;
+  border-radius: 20px;
+}
+#image-display-container{
+  width: 800px;
+  height: 500px;
+  border: 2px solid;
+  position: absolute;
+  left: 30vw;
+}
+.enlarged-image{
+  height: 100%;
+  width: 100%;
+}
